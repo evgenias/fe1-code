@@ -30,7 +30,13 @@ a:hover {
 
 ol, ul {
 	padding-top: 0.5em;
-	padding-left: 40px;
+	padding-left: 10px;
+}
+
+#contents {
+	width: 25%;
+	border:1px solid #aaa;
+	font: 11px/1.5 Verdana, Arial, sans-serif;
 }
 
 #contents ol { 
@@ -51,16 +57,16 @@ ol li ol li, ul li ol li ol li {list-style-type: lower-roman;}
 ol li ol li ol li, ul li ol li ol li ol li {list-style-type: lower-alpha;}
 ol li ol li ol li ul li, ol li ol li ol li ol li {list-style-type: circle;}
 
-table#toptable {
-	width:50px;
-	border:2px solid #aaa;
+#toptable {
+	width: 20%;
+	border:1px solid #aaa;
 	float: right;
 	font: 11px/1.5 Verdana, Arial, sans-serif;
 }
 
 
-thead, tfoot {
-	background: #ADD;
+thead, tfoot #toptable{
+	background: #B5FACA;
 }
 
 tfoot {
