@@ -1,0 +1,72 @@
+* { padding: 0; margin: 0; } 
+
+body {
+	font: 20px/1.5 "Arial Narrow", sans-serif;
+	padding: 40px;
+}
+
+#container { 
+	width: 600px;
+	padding: 10px; 
+	margin: 0 auto; 
+	border: 2px solid #999; 
+}
+
+header { 
+	padding: 15px; 
+	background: #EEE;
+	border-bottom: 5px solid #FFF;
+}
+
+section { 
+	background: #EEE; 
+	overflow: hidden; 
+}
+section .sidebar-left, section .content, section .sidebar-right { 
+	padding: 0; 
+	float: left;
+}
+
+section .sidebar-left { 
+	width: 20%; 
+	background: #EEE;
+}
+section .sidebar-left .inner { 
+	border-top: 5px solid #FFF;
+	border-right: 5px solid #FFF;
+	border-bottom: 5px solid #FFF;  
+}
+
+section .content { 
+	width: 65%; 
+	background: #EEE;
+}
+section .content .inner { 
+	border-top: 5px solid #FFF;
+	border-right: 5px solid #FFF;
+	border-bottom: 5px solid #FFF;
+	border-left: 5px solid #FFF;
+}
+section .sidebar-right { 
+	width: 15%; 
+	background: #EEE;  
+}
+section .sidebar-right .inner { 
+	border-top: 5px solid #FFF;
+	border-left: 5px solid #FFF;
+	border-bottom: 5px solid #FFF;  
+}
+
+section.sidebars .sidebar-left, section.sidebars .content, section.sidebars .sidebar-right { 
+	float: left; 
+}
+
+footer { 
+	padding: 15px; 
+	background: #EEE;
+	border-top: 5px solid #FFF;
+}
+
+.sidebar-left .inner, .content .inner, .sidebar-right .inner { 
+	padding: 15px 15px; 
+}
