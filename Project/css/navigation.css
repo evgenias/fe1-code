@@ -1,0 +1,13 @@
+nav {  }
+nav li { background: #054A8F; color: #FFF; list-style: none outside; display: block; position: relative; }
+nav a { display: block; text-decoration: none; border: 1px solid #054A8F; border-right: 0; color: #FFF; text-align: center; }
+nav a:last-child { border-right: 1px solid #054A8F; }
+nav ul { padding: 0; }
+nav > ul > li { float: left; width: 12.5%; }
+nav ul li a { padding: 15px 10px; font-size: 1.2em; }
+nav ul li a:hover { text-decoration: underline; background: #FFF; color: #054A8F; }
+nav ul li ul { display: none; width: 100%; position: absolute; left: 0; top: 100%; }
+nav li:hover > ul { display: block; }
+nav ul li ul li { float: none; top: 0; }
+nav li.active, nav li.active > a { text-decoration: underline; background: #FFF; color: #054A8F; }
+

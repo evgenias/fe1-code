@@ -1,0 +1,83 @@
+.articles { padding: 0px; clear: both; overflow: hidden; }
+.articles .title, { padding-bottom: 10px; color: #0066CC; }
+.articles ul { padding: 0; overflow: hidden; }
+.articles ul li { display: block; width: 50%; float: left; }
+.articles ul li br { display: none; }
+.articles ul li h6,
+.articles ul li span { display: block; padding-right: 25px; }
+.articles ul li strong { padding-top: 10px; }
+.articles ul li span.author,
+.articles ul li span.date,
+.articles ul li span.copy,
+.articles ul li span.more, 
+.articles ul li span.more a { padding-bottom: 10px 0; color: #FFF; }
+
+.articles .content, .articles .subtitle { margin: 0 2.50%; padding: 15px 25.2%; color: #FFF;  }
+.articles .subtitle { background: #0066CC; }
+.articles .content { background: #054A8F; }
+
+
+.articles.sidebar-double .sidebar { width: 25%; }
+.articles.sidebar-double .content { width: 50%; margin: 0; }
+
+.articles.sidebar-none .sidebar { display: none; }
+.articles.sidebar-none .content { width: 50%; float: none; margin: 0 auto; padding-bottom: 4em; }
+
+.inner .articles { margin: 0; clear: both; }
+.inner .articles .title { padding-bottom: 10px; color: #0066CC; }
+.inner .articles ul { padding: 0; }
+.inner .articles ul li { display: block; width: 95%; float: center; border-bottom: 1px solid #0066CC; }
+.inner .articles ul li br { display: none; }
+.inner .articles h2,
+.inner .articles ul li strong,
+.inner .articles ul li span { display: block; padding: 0; }
+.inner .articles ul li strong { padding-top: 10px; }
+.inner .articles ul li span.author { color: #0066CC; }
+.inner .articles ul li span.date { color: #424242; padding-bottom: 10px; }
+.inner .articles ul li span.copy { padding-bottom: 10px; color: #424242; }
+.inner .articles ul li span.more, 
+.inner .articles ul li span.more a { color: #0066CC; padding-bottom: 10px; }
+
+.comments { clear: both; }
+.comments .title { padding-bottom: 10px; color: #0066CC; }
+.comments ul { padding: 0; overflow: hidden; }
+.comments ul li { display: block; width: 100%; }
+.comments ul li br { display: none; }
+.comments h2,
+.comments ul li strong,
+.comments ul li span { display: block; padding: 0 20px; }
+.comments ul li strong { padding-top: 10px; }
+.comments ul li span.author { color: #0066CC; }
+.comments ul li span.date { color: #424242; padding-bottom: 10px; }
+.comments ul li span.copy { padding-bottom: 10px; color: #424242; }
+
+form { }
+form legend { padding: 15px; background: #054A8F; color: #FFF; }
+form label, form input { display: block; }
+
+form label { padding-right: 20px; width: 50%; }
+form input, form textarea { width: 64%; padding: 5px 8px; outline: none; }
+form input:focus, form textarea:focus { border-color: #0066CC; }
+form button { margin-top: 10px; padding: 5px 8px; }
+
+form fieldset { margin: 15px 0; padding: 20px; width: 90%; border: 1px solid #0066CC; }
+form fieldset p:last-child { padding-bottom: 0; }
+form fieldset legend { padding: 0 0.5em; }
+
+form.compact p { overflow: hidden; }
+form.compact label,
+form.compact input,
+form.compact textarea { float: left; }
+form.compact input,
+form.compact textarea { width: 70%; }
+form.compact label { width: 20%; margin-right: 2.5%; text-align: left; }
+
+form .list-checkbox { }
+form .list-checkbox li { display: block; width: 100%; float: left; list-style: none outside; overflow: hidden; padding-bottom: 0.5em; }
+form .list-checkbox li input { width: 15%; margin-top: 0.32em;  }
+form .list-checkbox li label { width: 75%; text-align: left;  }
+
+.gallery { overflow: hidden; }
+.gallery li { display: block; list-style: none outside; float: left; width: 32%; height: 32%; margin: 0 0 0 0; padding: 3px;}
+.gallery li a { display: block; width: 100%; overflow: hidden; }
+.gallery li a img { display: block; width: 100%; }
